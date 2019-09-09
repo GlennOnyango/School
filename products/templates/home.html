@@ -1,0 +1,99 @@
+{% extends 'index.html'%}
+{% load static%}
+{% block content %}
+
+
+<div class="row" style="margin-top:5px">
+
+
+    <div class="col l12 m12 s12" id="con_pic">
+        <div class="carousel carousel-slider">
+            <img id="img1" class="carousel-item" src="{% static 'css/image-car/inclass.png'%}">
+
+            <img id="img2" class="carousel-item" src="{% static 'css/Image-car/SoccerClinicGirls_GL.jpg'%}">
+
+            <img id="img3" class="carousel-item" src="{% static 'css/image-car/ball.jpg'%}">
+
+        </div>
+
+    </div>
+
+
+    <div class="col l6 m6 s12 transparent">
+        <h4 class="center blue-text text-darken-2">VISION</h4>
+
+        <div class="section">
+            <p class="center blue-text text-darken-2">To provide quality to the society.
+            </p>
+        </div>
+    </div>
+
+    <div class="col l6 m6 s12 transparent">
+        <h4 class="center blue-text text-darken-2">SCHOOL MOTTO</h4>
+
+        <div class="section">
+            <p class="center center blue-text text-darken-2">Discipline is the key to success
+            </p>
+        </div>
+    </div>
+
+    <div class="row transparent">
+        <div class="col l12 m12 s12 transparent">
+            <h4 class="center blue-text text-darken-2">MISSION</h4>
+
+            <div class="section">
+                <p class="center center blue-text text-darken-2">A center for quality and excellent education that
+                    allows
+                    children to develop holistically and discover their talents.
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="divider"></div>
+    <div>
+
+        <div class="col l12 m12 s12"><h4 class="center center blue-text text-darken-4" id="heading-sus"><b>Our
+            development goals</b></h4></div>
+
+        <div class="col l3 m3 s10 card yellow darken-3" id="peaceCard">
+            <div class="card-content  center">
+                <img class="card-image" src="{%static 'css/sdg/sdg-en-02.png'%}">
+            </div>
+        </div>
+        <div class="col l3 m3 s10 card green darken-1 z-depth-3" id="socialCard">
+            <div class="card-content center">
+                <img class="card-image" src="{%static 'css/sdg/sdg-en-03.png'%}">
+            </div>
+        </div>
+        <div class="col l3 m3 s10 card red darken-3 z-depth-3" id="togetherCard">
+            <div class="card-content center">
+                <img class="card-image" src="{%static 'css/sdg/sdg-en-04.png'%}">
+            </div>
+        </div>
+        <div class="col l3 m3 s10 card blue darken-3 z-depth-3" id="toleranceCard">
+            <div class="card-content center">
+                <img class="card-image " src="{%static 'css/sdg/sdg-en-16.png'%}">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+
+    <div class="card center z-depth-4 white col l4 m4 s10" id="div-donation">
+        <div class="card-content">
+
+            <h5 class="card-title btn-flat pulse" id="donation-btn"><a
+                    class="blue-text text-darken-4" style="font-size:32px"
+                    href="http://127.0.0.1:8000/donate">Donate</a></h5>
+        </div>
+    </div>
+
+
+</div>
+
+
+{% endblock %}
